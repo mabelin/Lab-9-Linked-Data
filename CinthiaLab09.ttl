@@ -1,0 +1,39 @@
+@base <http://github.com/mabelin/Lab09/CinthiaLab09.ttl> .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<> a foaf:Document ;
+   dc:date "2019-10-09"^^xsd:date ;
+   dc:title "Mabel's FOAF Profile"@en ;
+   foaf:primaryTopic <#cs> ;
+   dc:creator <#cs> .
+
+<#cs> a foaf:Person ;
+   rdfs:label "Mabel Sanchez" ;
+   rdfs:comment "Estudiante del DCC"@es ;
+   foaf:name "Mabel Sánchez" ;
+   foaf:givenName "Mabel" ;
+   foaf:familyName "Sánchez" ;
+   foaf:age "1994-03-01"^^xsd:date ;
+   foaf:img <http://cdn.pixabay.com/photo/2016/04/26/07/57/woman-1353825_960_720.png> ;
+   foaf:homepage <www.linkedin.com/in/cinthia-sanchez-macias> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <https://users.dcc.uchile.cl/~dhernand/foaf.ttl#dh> ;
+   foaf:interest <http://www.wikidata.org/entity/Q5815826> , 
+   <http://www.wikidata.org/entity/Q27894574> , 
+   <http://www.wikidata.org/entity/Q1356213> ,
+   <http://www.wikidata.org/entity/Q132863> , 
+   <http://www.wikidata.org/entity/Q51416> , 
+   <http://www.wikidata.org/entity/Q373096> .
+
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl> .
+
+social:hasEnemy a rdf:Property , owl:ObjectProperty ;
+   rdfs:label "has enemy"@en , "tiene enemigo"@es ;
+   rdfs:subPropertyOf foaf:knows .
+
+social:hasSpiritAnimal a rdf:Property , owl:ObjectProperty , owl:FunctionalProperty ;
+   rdfs:label "has spirit animal"@en , "tiene animal espiritual"@es .
