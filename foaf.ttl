@@ -21,13 +21,15 @@
    foaf:age "1994-03-01"^^xsd:date ;
    foaf:img <http://cdn.pixabay.com/photo/2016/04/26/07/57/woman-1353825_960_720.png> ;
    foaf:homepage <www.linkedin.com/in/cinthia-sanchez-macias> ;
-   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <https://users.dcc.uchile.cl/~dhernand/foaf.ttl#dh> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <http://users.dcc.uchile.cl/~dhernand/foaf.ttl#dh> , 
+<http://github.com/jawilliam/Knowledge-Discovery-Foundation/blob/master/myProfile.ttl#ja> ;
    foaf:interest <http://www.wikidata.org/entity/Q5815826> , 
-   <http://www.wikidata.org/entity/Q27894574> , 
-   <http://www.wikidata.org/entity/Q1356213> ,
-   <http://www.wikidata.org/entity/Q132863> , 
-   <http://www.wikidata.org/entity/Q51416> , 
-   <http://www.wikidata.org/entity/Q373096> .
+   <http://www.wikidata.org/entity/Q18406872> , 
+   <http://www.wikidata.org/entity/Q1741232> ,
+   <http://www.wikidata.org/entity/Q505790> ,
+   <http://www.wikidata.org/entity/Q288173> ,
+   <http://www.wikidata.org/entity/Q26252639> ,
+   <http://www.wikidata.org/entity/Q54803694> .
 
 @prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl> .
 
