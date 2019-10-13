@@ -19,9 +19,9 @@
    foaf:name "Mabel Sánchez" ;
    foaf:givenName "Mabel" ;
    foaf:familyName "Sánchez" ;
-   foaf:age 25;
-   foaf:gender "female"; 
-   foaf:birthday "1994-03-01"^^xsd:date ;
+   foaf:age 25; #foaf:birthday "1994-03-01"^^xsd:date ;
+   foaf:gender "female";   
+   foaf:mbox <mailto:cisanche@dcc.uchile.cl> ;
    foaf:img <http://cdn.pixabay.com/photo/2016/04/26/07/57/woman-1353825_960_720.png> ;
    foaf:homepage <www.linkedin.com/in/cinthia-sanchez-macias> ;
    foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <http://users.dcc.uchile.cl/~dhernand/foaf.ttl#dh> , 
