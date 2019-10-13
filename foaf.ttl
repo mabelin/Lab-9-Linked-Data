@@ -24,8 +24,7 @@
    foaf:homepage <www.linkedin.com/in/cinthia-sanchez-macias> ;
    foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <http://users.dcc.uchile.cl/~dhernand/foaf.ttl#dh> , 
 <http://github.com/jawilliam/Knowledge-Discovery-Foundation/blob/master/myProfile.ttl#ja> ;
-   foaf:interest <http://www.wikidata.org/entity/Q5815826> , 
-   <http://www.wikidata.org/entity/Q18406872> , 
+   foaf:interest <http://www.wikidata.org/entity/Q18406872> , 
    <http://www.wikidata.org/entity/Q1741232> ,
    <http://www.wikidata.org/entity/Q505790> ,
    <http://www.wikidata.org/entity/Q288173> ,
