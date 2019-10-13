@@ -33,8 +33,6 @@
    <http://www.wikidata.org/entity/Q26252639> ,
    <http://www.wikidata.org/entity/Q54803694> .
 
-@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl> .
-
 social:hasEnemy a rdf:Property , owl:ObjectProperty ;
    rdfs:label "has enemy"@en , "tiene enemigo"@es ;
    rdfs:subPropertyOf foaf:knows .
