@@ -6,7 +6,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
-@prefix social:  <http://ex.org/>.
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#> .
 
 <> a foaf:Document ;
    dc:date "2019-10-09"^^xsd:date ;
@@ -34,10 +34,3 @@
    <http://www.wikidata.org/entity/Q54803694> ;
    foaf:myersBriggs "ISTP" .
 
-
-social:hasEnemy a rdf:Property , owl:ObjectProperty ;
-   rdfs:label "has enemy"@en , "tiene enemigo"@es ;
-   rdfs:subPropertyOf foaf:knows .
-
-social:hasSpiritAnimal a rdf:Property , owl:ObjectProperty , owl:FunctionalProperty ;
-   rdfs:label "has spirit animal"@en , "tiene animal espiritual"@es .
