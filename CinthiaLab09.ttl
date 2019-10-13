@@ -1,4 +1,4 @@
-@base <http://github.com/mabelin/Lab09/CinthiaLab09.ttl> .
+@base <http://raw.githubusercontent.com/mabelin/Lab-9-Linked-Data/master/CinthiaLab09.ttl> .
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
