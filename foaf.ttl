@@ -27,7 +27,6 @@
    foaf:interest <http://www.wikidata.org/entity/Q18406872> , 
    <http://www.wikidata.org/entity/Q1741232> ,
    <http://www.wikidata.org/entity/Q505790> ,
-   <http://www.wikidata.org/entity/Q288173> ,
    <http://www.wikidata.org/entity/Q26252639> ,
    <http://www.wikidata.org/entity/Q54803694> .
 
