@@ -6,6 +6,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix social:  <http://ex.org/>.
 
 <> a foaf:Document ;
    dc:date "2019-10-09"^^xsd:date ;
