@@ -27,7 +27,8 @@
    foaf:img <http://cdn.pixabay.com/photo/2016/04/26/07/57/woman-1353825_960_720.png> ;
    foaf:homepage <www.linkedin.com/in/cinthia-sanchez-macias> ;
    foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <http://users.dcc.uchile.cl/~dhernand/foaf.ttl#dh> ,
-   <http://github.com/jawilliam/Knowledge-Discovery-Foundation/blob/master/myProfile.ttl#ja> ;   
+   <http://github.com/jawilliam/Knowledge-Discovery-Foundation/blob/master/myProfile.ttl#ja> , 
+   <http://raw.githubusercontent.com/JoseIVP/lab9-watos/master/jose.ttl#jv>;   
    #Five movies that I like (using their Wikidata IRIs)
    foaf:interest <http://www.wikidata.org/entity/Q18406872> , 
    <http://www.wikidata.org/entity/Q1741232> ,
@@ -40,8 +41,8 @@
    foaf:mbox <mailto:cisanche@dcc.uchile.cl> ;
    #Two properties of Linked Open Vocabularies (LOV)
    bio:birth [a bio:Birth; bio:place <http://dbpedia.org/page/Ecuador> ; bio:date "1994-03-01" ]  ; #using a vocabulary for biographical information (bio)
-   wai:plays "Student" . #using Roles and Profiles Ontology (wai)   
+   wai:plays "Student" ; #using Roles and Profiles Ontology (wai)   
    #Two properties of social.ttl
-    
-    
-
+   social:knowsTransitively <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> ;
+   social:hasEnemy <https://www.wikidata.org/wiki/Q1357> ;
+   social:hasSpiritAnimal <https://www.wikidata.org/wiki/Q2092297> .
