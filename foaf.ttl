@@ -7,6 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#> .
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix wai: <http://purl.org/wai#> .
+
 
 <> a foaf:Document ;
    dc:date "2019-10-09"^^xsd:date ;
@@ -20,17 +23,26 @@
    foaf:name "Mabel Sánchez" ;
    foaf:givenName "Mabel" ;
    foaf:familyName "Sánchez" ;
-   foaf:age 25; #foaf:birthday "1994-03-01"^^xsd:date ;
-   foaf:gender "female";   
-   foaf:mbox <mailto:cisanche@dcc.uchile.cl> ;
+   foaf:age 25;
    foaf:img <http://cdn.pixabay.com/photo/2016/04/26/07/57/woman-1353825_960_720.png> ;
    foaf:homepage <www.linkedin.com/in/cinthia-sanchez-macias> ;
-   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <http://users.dcc.uchile.cl/~dhernand/foaf.ttl#dh> , 
-<http://github.com/jawilliam/Knowledge-Discovery-Foundation/blob/master/myProfile.ttl#ja> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <http://users.dcc.uchile.cl/~dhernand/foaf.ttl#dh> ,
+   <http://github.com/jawilliam/Knowledge-Discovery-Foundation/blob/master/myProfile.ttl#ja> ;   
+   #Five movies that I like (using their Wikidata IRIs)
    foaf:interest <http://www.wikidata.org/entity/Q18406872> , 
    <http://www.wikidata.org/entity/Q1741232> ,
    <http://www.wikidata.org/entity/Q505790> ,
    <http://www.wikidata.org/entity/Q26252639> ,
    <http://www.wikidata.org/entity/Q54803694> ;
-   foaf:myersBriggs "ISTP" .
+   foaf:myersBriggs "ISTP" ;   
+   #Two other properties from the FOAF vocabulary
+   foaf:gender "female";   
+   foaf:mbox <mailto:cisanche@dcc.uchile.cl> ;
+   #Two properties of Linked Open Vocabularies (LOV)
+   bio:birth [a bio:Birth; bio:date “1994-03-01”; bio:place <http://dbpedia.org/page/Ecuador>] ; #using a vocabulary for biographical information (bio)
+   wai:plays "Student" . #using Roles and Profiles Ontology (wai)   
+   #Two properties of social.ttl
+
+    
+    
 
