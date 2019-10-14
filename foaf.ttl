@@ -25,7 +25,7 @@
    foaf:familyName "Sánchez" ;
    foaf:age 25;
    foaf:img <http://cdn.pixabay.com/photo/2016/04/26/07/57/woman-1353825_960_720.png> ;
-   foaf:homepage <www.linkedin.com/in/cinthia-sanchez-macias> ;
+   foaf:homepage <http://www.linkedin.com/in/cinthia-sanchez-macias> ;
    foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <http://users.dcc.uchile.cl/~dhernand/foaf.ttl#dh> ,
    <http://github.com/jawilliam/Knowledge-Discovery-Foundation/blob/master/myProfile.ttl#ja> , 
    <http://raw.githubusercontent.com/JoseIVP/lab9-watos/master/jose.ttl#jv>;   
