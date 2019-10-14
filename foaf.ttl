@@ -39,7 +39,7 @@
    foaf:gender "female";   
    foaf:mbox <mailto:cisanche@dcc.uchile.cl> ;
    #Two properties of Linked Open Vocabularies (LOV)
-   bio:birth [a bio:Birth; bio:date “1994-03-01”; bio:place <http://dbpedia.org/page/Ecuador>] ; #using a vocabulary for biographical information (bio)
+   bio:birth [a bio:Birth; bio:date “1994-03-01”; bio:place <http://dbpedia.org/page/Ecuador>;] ; #using a vocabulary for biographical information (bio)
    wai:plays "Student" . #using Roles and Profiles Ontology (wai)   
    #Two properties of social.ttl
 
