@@ -26,8 +26,10 @@
    foaf:age 25;
    foaf:img <http://cdn.pixabay.com/photo/2016/04/26/07/57/woman-1353825_960_720.png> ;
    foaf:homepage <http://www.linkedin.com/in/cinthia-sanchez-macias> ;
-   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <http://users.dcc.uchile.cl/~dhernand/foaf.ttl#dh> ,
-   <http://github.com/jawilliam/Knowledge-Discovery-Foundation/blob/master/myProfile.ttl#ja> , 
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , 
+   <http://anakena.dcc.uchile.cl/~ptaiba/foaf.ttl#pt> ,
+   <http://raw.githubusercontent.com/jawilliam/Knowledge-Discovery-Foundation/master/myProfile.ttl#ja> ,
+   <http://anakena.dcc.uchile.cl/~cmaldona/foaf.ttl#cm> ,
    <http://raw.githubusercontent.com/JoseIVP/lab9-watos/master/jose.ttl#jv>;   
    #Five movies that I like (using their Wikidata IRIs)
    foaf:interest <http://www.wikidata.org/entity/Q18406872> , 
